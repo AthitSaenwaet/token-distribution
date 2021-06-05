@@ -47,10 +47,6 @@ contract StandardToken is Token {
 
     function transferFrom(address _from, address _to, uint256 _value) returns (bool success) {
 
-        //same as above. Replace this line with the following if you want to protect against wrapping uints.
-
-        //if (balances[_from] >= _value && allowed[_from][msg.sender] >= _value && balances[_to] + _value > balances[_to]) {
-
         if (balances[_from] >= _value && allowed[_from][msg.sender] >= _value && _value > 0) {
 
             balances[_to] += _value;
@@ -145,15 +141,15 @@ contract HAZARDToken is StandardToken {
 
         ) {
 
-        balances[msg.sender] = 100000000000000;              // Give the creator all initial tokens (100000 for example)
+        balances[msg.sender] = 100000000000000;          
 
-        totalSupply = 100000000000000;                        // Update total supply (100000 for example)
+        totalSupply = 100000000000000;          
 
-        name = "HAZARD";                                   // Set the name for display purposes
+        name = "HAZARD";                         
 
-        decimals = 8;                            // Amount of decimals for display purposes
+        decimals = 8;               
 
-        symbol = "HAZARD";                               // Set the symbol for display purposes
+        symbol = "HAZARD";                        
 
     }
 
@@ -165,13 +161,6 @@ contract HAZARDToken is StandardToken {
         allowed[msg.sender][_spender] = _value;
 
         Approval(msg.sender, _spender, _value);
-
-
-        //call the receiveApproval function on the contract you want to be notified. This crafts the function signature manually so one doesn't have to include a contract in here just for this.
-
-        //receiveApproval(address _from, uint256 _value, address _tokenContract, bytes _extraData)
-
-        //it is assumed that when does this that the call *should* succeed, otherwise one would use vanilla approve instead.
 
         if(!_spender.call(bytes4(bytes32(sha3("receiveApproval(address,uint256,address,bytes)"))), msg.sender, _value, this, _extraData)) { throw; }
 
