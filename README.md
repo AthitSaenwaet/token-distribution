@@ -24,7 +24,7 @@
 
 The HAZARD token ERC20.sol and BEP20.sol is ERC-20, BEP2-20 standard compatible and has the following additional characteristics:
 
-- An initial BEP-20 amount of 1,000,000,000 HAZARD tokens supply.
+- An initial BEP-20 amount of 1,000,000,000 HAZARD tokens supply and burn 1,000,000 HAZARD for ERC-20.
 - An initial ERC-20 amount of 1,000,000 HAZARD tokens supply.
 - An ability to burn tokens by users to reduce total number of token supply.
 - At the completion of token sale, HAZARD plans to do the following:
