@@ -14,11 +14,11 @@
 
 ### Bscscan.com
 
-    https://bscscan.com/token/0x10d28054cba59deea6034291dea3126e207baa62
+    https://bscscan.com/token/0x27d25325d358c30cc41312fa7c24e3f1913caaa1
 
 ### Token Address
 
-    0x10d28054cba59deea6034291dea3126e207baa62
+    0x27d25325d358c30cc41312fa7c24e3f1913caaa1
 
 ## HAZARD Token
 
