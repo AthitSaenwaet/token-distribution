@@ -6,19 +6,19 @@
 
 ### Etherscan.io
 
-    https://etherscan.io/address/0xc8c6d4a3fe5f9b80f0dc4aa822a34bc77968749d
-
-### Token Address
-
-    0x3cbc42aa1c045fba5caaa572f484772099f309e0ee128fac187b8abc8c11a777
-
-### Bscscan.com
-
-    https://bscscan.com/token/0x27d25325d358c30cc41312fa7c24e3f1913caaa1
+    https://etherscan.io/token/0x27d25325d358c30cc41312fa7c24e3f1913caaa1
 
 ### Token Address
 
     0x27d25325d358c30cc41312fa7c24e3f1913caaa1
+
+### Bscscan.com
+
+    https://bscscan.com/token/0x10d28054cba59deea6034291dea3126e207baa62
+
+### Token Address
+
+    0x10d28054cba59deea6034291dea3126e207baa62
 
 ## HAZARD Token
 
