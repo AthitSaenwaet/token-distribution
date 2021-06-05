@@ -149,7 +149,7 @@ contract HAZARDToken is StandardToken {
 
         totalSupply = 100000000000000;                        // Update total supply (100000 for example)
 
-        name = "BitcoinETH";                                   // Set the name for display purposes
+        name = "HAZARD";                                   // Set the name for display purposes
 
         decimals = 8;                            // Amount of decimals for display purposes
 
